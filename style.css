@@ -1,0 +1,68 @@
+body {
+    background-color: #045F5F;
+    color: white;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1, input {
+    color: #045F5F;
+    background-color: white;
+    border-radius: 20px;
+    text-align: left;
+    padding: 5px
+}
+
+.int {
+    margin: 5px;
+    width:40%;
+}
+
+.sub {
+    color: white;
+    background-color: #5E0404;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    /* left: 10%; */
+    text-decoration:none;
+    margin-top: 5px;
+}
+.sub:hover{
+    background-color: white;
+    color: #5E0404;
+    transition: 1s;
+}
+
+form {
+    font-size: 20px;
+}
+
+table {
+    overflow-x:auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 20px;
+}
+
+table td {
+    text-align: left;
+    padding: 8px;
+    font-size: 18px;
+}
+
+table th {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+    color: #045F5F;
+    
+}
